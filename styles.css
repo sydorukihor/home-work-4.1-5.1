@@ -10,6 +10,21 @@ p#example {
 div > p:has(input) {
     background-color: grey;
 }
-div > p {
+div p {
     background-color: pink;
+}
+section > p {
+    background-color: brown;
+}
+section > p + p {
+    background-color: silver;
+}
+article.highlight p {
+    background-color: lightblue;
+}
+#list .item {
+    background-color: lightgreen;
+}
+section p[data-role="special"] {
+    background-color: coral;
 }
