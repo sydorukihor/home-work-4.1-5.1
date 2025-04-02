@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Домашка 4.1</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-$END$
+<p>1. Застосування стилю до тегу p, на першому рівні, специфічність (0,0,0,1)</p>
+<div>
+    <p class="example">2. Застовування стилю до тегу p, з класом example, на другому рівні, специфічність (0,0,1,1)</p>
+    <p id="example">3. Застовування стилю до тегу p, з id example вкладеного в div, на третьому рівні, специфічність (0,1,0,1)</p>
+    <p>4. Застосування стилю до p з артибутом input вкладеного в div, на першому рівні, специфічність (0,0,0,3) <input type="text" placeholder="Впишіть текст"></p>
+    <p>5. Застосування стилю до p вкладеного в div на першому рівні специфічність (0,0,0,2)</p>
+</div>
+
 </body>
 </html>

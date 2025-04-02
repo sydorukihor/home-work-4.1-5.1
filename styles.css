@@ -1,0 +1,15 @@
+p {
+    background-color: yellow;
+}
+p.example {
+    background-color: blue;
+}
+p#example {
+    background-color: green;
+}
+div > p:has(input) {
+    background-color: grey;
+}
+div > p {
+    background-color: pink;
+}
